@@ -1,0 +1,95 @@
+﻿/*body*/
+body
+{
+    background-color: rgb(237, 237, 237);
+    font-family:Arial;
+    font-size: 12px;
+    width:auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+/*page*/
+.wrapper
+{
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*header*/
+.header
+{
+    margin:0;
+    padding:0;
+ }
+/*Home Page*/
+.content
+{
+    width: 100%;
+    background-color: rgb(254, 254 ,254);
+    border: 1px solid rgb(224, 224, 224);
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-height: 400px;
+}
+/*menu*/
+.menu
+{
+    background-color: rgb(10, 110, 178);
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    height: 40px;
+    color: rgb(243, 243, 243);
+}
+.navigation_first_item
+{
+    border-left: 0px;
+}
+.navtem_s
+{
+    float: left;
+    border-right: 1px solid rgb(10, 85, 125);
+    border-left: 1px solid rgb(67, 153, 200);
+    height: 40px;
+    background-color: rgb(14, 79, 114);
+}
+.menu ul li
+{
+    float: left;
+    display: block;
+    list-style: none;
+    border-right: 1px solid rgb(10, 85, 125);
+    border-left: 1px solid rgb(67, 153, 200);
+}
+.menu ul li a
+{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 8px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu ul li:hover
+{
+    background-color: rgb(14, 79, 114);
+    border-right: 1px solid rgb(14, 89, 130);
+}
+.clear
+{
+    clear: both;
+}
+/*footer*/
+.footer
+{
+    height:66px;
+    background-color:rgb(10, 110, 178);
+    color:rgb(255, 255, 255);
+    }
+    .footer h2
+    {
+        padding: 15px;
+        text-align:center;
+        }
